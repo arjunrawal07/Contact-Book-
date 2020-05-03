@@ -19,16 +19,16 @@ class Entry(BaseModel):
 
 
 db.connect()
-db.drop_tables([Entry])
+# db.drop_tables([Entry])
 db.create_tables([Entry])
 
-arjun = Entry(first_name='Arjun', last_name='Rawal', address='34 Viper Way, Fang, TX, 20001',
-              phone_number='123-456-7890', birthday=date(1994, 8, 13))
-arjun.save()
+# arjun = Entry(first_name='Arjun', last_name='Rawal', address='34 Viper Way, Fang, TX, 20001',
+#               phone_number='123-456-7890', birthday=date(1994, 8, 13))
+# arjun.save()
 
-dolores = Entry(first_name='Dolores', last_name='Umbridge', address='1234 Owls Lane',
-                phone_number='567-943-0943', birthday=date(1980, 4, 23))
-dolores.save()
+# dolores = Entry(first_name='Dolores', last_name='Umbridge', address='1234 Owls Lane',
+#                 phone_number='567-943-0943', birthday=date(1980, 4, 23))
+# dolores.save()
 
 
 def search_Contacts():
@@ -132,3 +132,4 @@ def search_Contacts():
 
 
 search_Contacts()
+db.close()
