@@ -1,12 +1,16 @@
 # Contact Book Command Line Application
 
-Welcome! This contact book command line application offers complete Create, Read, Update, and Delete (CRUD) capability for your contact book needs. 
+## Description:
+
+This contact book command line application offers complete Create, Read, Update, and Delete (CRUD) capability for your contact book needs. 
 
 ## Technologies Used
 
-This application utilizes Peewee, an Object-Relation Mapper for SQL Databases, as well as Python. 
+Backend:
+* Peewee - an Object-Relation Mapper for SQL Databases
+* Python
 
-## Instructions
+## How to Use the Application:
 
 1. Clone down this repo.
 2. Change into the directory with the cloned repo.
@@ -18,3 +22,5 @@ This application utilizes Peewee, an Object-Relation Mapper for SQL Databases, a
 7. When you are finished using the application and enter "No" to the continue searching prompt, the application will close the program, but you will still be in your virtual environment.
 8. To exit the virtual environment, enter ```exit``` into the command line and press return.
 
+## Challenges:
+Translating logic into Python was my primary challenge in building this project. The logic itself was not too different from how I would implement in Javascript.  But, because Python is a different language with different syntax and rules, I had to communicate with it a bit differently. I really enjoyed building this application because it was the first application I built in a language other than Javascript.
